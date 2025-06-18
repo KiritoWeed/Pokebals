@@ -1,0 +1,66 @@
+# === JAVA MOD (Gradle + Forge/Fabric) ===
+
+# Archivos de compilación y temporales
+*.class
+*.jar
+*.war
+*.ear
+/build/
+/out/
+/bin/
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.log
+
+# Configuración de entorno
+*.env
+*.local
+*.bak
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Ejecuciones locales y registros
+run/
+logs/
+
+# Librerías cacheadas
+/.gradle/
+/**/.gradle/
+
+# === BEDROCK ADD-ON ===
+
+# Herramientas de creación de Add-Ons
+.cache/
+.bridge/
+
+# Paquetes
+*.mcpack
+*.mcaddon
+
+# Exportaciones innecesarias
+*.zip
+
+# === NPM / JS (si usas herramientas como bridge.) ===
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# === GENERAL ===
+*.log
+*.lock
+*.bak
